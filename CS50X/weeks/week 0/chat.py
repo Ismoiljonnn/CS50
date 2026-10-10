@@ -3,7 +3,7 @@ from openai import OpenAI
 client = OpenAI()
 
 user_prompt = input("Prompt: ")
-system_promt = "Limit your answer to one sentence"
+system_promt = "Limit your answer to one sentence."
 
 responce = client.responses.create(
   input=user_prompt,
