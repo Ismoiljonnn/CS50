@@ -1,6 +1,6 @@
-from openai import OpenAi
+from openai import OpenAI
 
-client = OpenAi()
+client = OpenAI()
 
 responce = client.responses.create(
   input="In one sentence, what is CS50?",
