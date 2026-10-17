@@ -27,7 +27,7 @@ Through building this project for CS50x, I practiced fundamental computer scienc
 - **Audio & Visual Synchronization:** Integrated background music and sound effects mapped to specific player actions and UI events.
 
 ---
-
+ 
 ## Folder Structure
 - `Space Dodge.sb3` — Source file for the Scratch project.
 - `README.md` — Project overview and documentation.
