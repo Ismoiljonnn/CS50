@@ -7,11 +7,7 @@ int main(void)
   while (true)
   {
     n = get_int("What's n? ");
-    if (n < 0)
-    {
-      continue;
-    }
-    else
+    if (n >= 0)
     {
       break;
     }
