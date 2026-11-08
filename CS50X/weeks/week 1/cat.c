@@ -3,6 +3,7 @@
 
 int main(void)
 {
+  int n;
   while (true)
   {
     int n = get_int("What's n? ");
