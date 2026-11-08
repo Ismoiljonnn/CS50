@@ -6,7 +6,7 @@ int main(void)
   int n;
   while (true)
   {
-    int n = get_int("What's n? ");
+    n = get_int("What's n? ");
     if (n < 0)
     {
       continue;
