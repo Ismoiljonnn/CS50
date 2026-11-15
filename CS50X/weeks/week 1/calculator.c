@@ -7,4 +7,4 @@ int main(void)
   float y = get_int("what's y "); 
 
   printf("%0.50f\n", x / y);
-}
+} 
