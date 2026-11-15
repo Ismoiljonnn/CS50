@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 // Prototype
+int get_n(void);
 void meow(int n);
 
 int main(void)
