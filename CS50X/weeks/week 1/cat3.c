@@ -1,10 +1,8 @@
 #include "../0 cs50 library/cs50.h"
 #include <stdio.h>
 
-void meow(void)
-{
-  printf("meow\n");
-}
+// Prototype
+void meow(void);
 
 int main(void)
 {
@@ -12,4 +10,9 @@ int main(void)
   {
     meow();
   }
+}
+
+void meow(void)
+{
+  printf("meow\n");
 }
