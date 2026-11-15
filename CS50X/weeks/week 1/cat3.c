@@ -8,7 +8,8 @@ int main(void)
 {
   for (int i = 0; i < 3; i++)
   {
-    meow(3);
+    int n = get_itn("What's n? ");
+    meow(n);
   }
 }
 
