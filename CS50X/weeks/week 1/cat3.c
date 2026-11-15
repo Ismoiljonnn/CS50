@@ -8,9 +8,18 @@ int main(void)
 {
   for (int i = 0; i < 3; i++)
   {
-    int n = get_itn("What's n? ");
+    int n = get_n();
     meow(n);
   }
+}
+
+int get_n(void)
+{
+  int n;
+  do
+  {
+    n = get_int("What's n?");
+  } while (n < 0);
 }
 
 void meow(int n)
